@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='w-[582px]' >
+    <div className='w-[582px] mx-auto my-44' >
       <img className='w-[276px] mx-auto mb-7' src="/googlepng.png" alt="" />
      <div className='relative '>
      <FaSearch className='text-[#aaaaaa] text-sm top-4 left-5 absolute'></FaSearch>
