@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { FaBeer, FaSearch } from 'react-icons/fa';
+import { FaBeer, FaPlus, FaSearch } from 'react-icons/fa';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,6 +17,11 @@ function App() {
       <img className='w-3' src="/image.png" alt="" />
      </div>
      </div>
+     <div className='text-center mt-10'>
+     <button className='text-xl font-extralight p-4  rounded-full bg-[#f5f3f3]'><FaPlus></FaPlus></button>
+     <p className='font-normal text-xs my-5'>Add shortcut</p>
+     </div>
+     
     </div>
   )
 }
