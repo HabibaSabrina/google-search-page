@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='max-sm:hidden'>
+        <div className='max-sm:hidden pt-1'>
            <div className='text-[#7B7B7B]  p-5  bg-[#F2F2F2]'>
             <p>Bangladesh</p>
             </div> 
