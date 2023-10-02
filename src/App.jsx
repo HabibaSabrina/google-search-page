@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import { FaKeyboard, FaPlus, FaSearch } from 'react-icons/fa';
+import { FaKeyboard, FaPlus, FaSearch, FaTh } from 'react-icons/fa';
 
 function App() {
   
@@ -9,9 +9,11 @@ function App() {
 
   return (
     <div>
-      <div>
-        <p className='hover:underline font-normal'>Gmail</p>
-        <p className='hover:underline font-normal'>Images</p>
+      <div className='flex items-center gap-5 absolute top-5 right-5'>
+        <p className='hover:underline font-normal cursor-pointer'>Gmail</p>
+        <p className='hover:underline font-normal cursor-pointer'>Images</p>
+        <button className='text-[#7B7B7B] hover:bg-[#F8F8F8] p-3 rounded-full'><FaTh></FaTh></button>
+        <button className='text-white px-5 bg-[#1A73E8] py-2 font-semibold rounded '>Sign In</button>
         <p></p>
       </div>
       <div className='w-[582px] mx-auto my-44' >
