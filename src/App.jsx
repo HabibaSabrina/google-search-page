@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 import { FaKeyboard, FaPlus, FaSearch, FaTh } from 'react-icons/fa';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -37,6 +38,8 @@ function App() {
      </div>
      
     </div>
+    {/* footer section */}
+    <Footer></Footer>
     
     </div>
   )
